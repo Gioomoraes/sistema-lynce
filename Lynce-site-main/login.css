@@ -1,0 +1,418 @@
+.background-custom {
+    height: 100%;
+    background-color: #f0f0f0;
+    background-image: url('imgs/homemmalhando.png');
+    background-size:  50%; /* Ajuste conforme necessário */
+    background-position: 930px 0px; 
+    background-repeat: no-repeat;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    src:  url(BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-button img {
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-size: cover;
+    background-position: right; 
+    width: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.homemmalhando {
+    display: absolute;
+    margin-left: 200px;
+}
+
+.imglogo {
+    position: absolute;
+    top: 25px;
+    left: 45%; 
+    transform: translateX(-50%); 
+    width: 200px;
+    height: auto; 
+}
+
+.login-form {
+    background-color: white;
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+.login-form h1 {
+    text-align: left;
+    margin-bottom: 560px;
+    margin-right: 490px;
+    color: #333;
+    font-family: 'Bricolage Grotesque';
+    position: absolute;
+}
+
+.login-form p {
+    text-align: left ;
+    margin-bottom: 450px;
+    margin-right: 190px;
+    margin-left: 70px;
+    color: #464646;
+    font-family: 'Poppins';
+    position: absolute;
+    font-size: 19px;
+}
+
+.form-group {
+    margin-bottom: 45px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #252525;
+    font-family: 'Poppins';
+}
+
+.form-group input {
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 500px; 
+    max-width: 600px; 
+}
+
+.form-group button {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#togglePassword img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px; 
+}
+
+#forgotPassword {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #007BFF;
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Poppins';
+}
+
+#forgotPassword:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    width: 350px;
+    height: 45px;
+    padding: 10px;
+    background-color: #f4511e;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-right: 65px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e03e1d;
+}
+
+.form-group span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 160px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 0 80px;
+    color: #f4511e;
+    font-family: 'Poppins';
+}
+
+.form-group span::before,
+.form-group span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 115px;
+    height: 2px;
+    background-color: #f4511e;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-group span::before {
+    left: -70px;
+}
+
+.form-group span::after {
+    right: -70px;
+}
+
+.google-button {
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    color: #757575;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: 165px; 
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.341); 
+}
+
+.google-button:hover {
+    background-color: #dbd7d7;
+}
+
+.google-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#naotemconta p {
+    text-align: center ;
+    margin-top: 280px;
+    margin-left: 10px;
+    color: #949393;
+    font-family: 'Poppins';
+    position: absolute;
+    font-size: 18px;
+    width: 60%;
+}
+
+.link-crieuma {
+    text-align: center ;
+    margin-top: 280px;
+    margin-left: 210px;
+    color: #324eff;
+    font-family: 'Poppins';
+    position: absolute;
+    font-size: 18px;
+    width: 60%;
+    text-decoration: none; 
+}
+
+.link-crieuma:hover {
+    text-decoration: underline; 
+}
+
+/* Ajustes para outros dispositivos, está incompleto */
+@media screen and (max-width: 1817px) {
+.background-custom {
+    background-size:  51%; 
+    background-position: 900px 0px; 
+    background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 1806px) {
+    .background-custom {
+        background-size:  51%; 
+        background-position: 900px 0px; 
+        background-repeat: no-repeat;
+        }
+
+    .login-form h1 {
+        margin-left: 550px;
+        width: calc(100% - 80px); 
+    }
+
+    .login-form p {
+        margin-left: 250px;
+        width: calc(100% - 80px); 
+    }
+}
+
+@media screen and (max-width: 1789px) {
+.background-custom {
+    background-size:  53%; 
+    background-position: 845px 0px; 
+    background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 1653px) {
+    .background-custom {
+        background-size:  60%; 
+        background-position: 800px 0px; 
+        background-repeat: no-repeat;
+        }
+    }
+
+@media screen and (max-width: 768px) {
+    .background-custom {
+        background-image: none;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .back-button img {
+        width: 100px;
+        height: auto;
+    }
+
+    .imglogo img{
+        margin-top: 15px;
+        margin-left: 25px;
+        width: 200px; 
+        height: auto; 
+    }
+    
+    .login-form h1, .login-form p, .form-group, .google-button, .link-crieuma {
+        margin: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .login-form h1 {
+        margin-bottom: 320px;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .login-form p {
+        margin-bottom: 235px;
+        margin-left: 50px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .email-label {
+        font-size: 14px;
+        margin-top: 35px;
+    }
+
+    .password-label {
+        font-size: 14px;
+        padding-top: 25px;
+    }
+
+    #passwordIcon {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 20px;
+        right: -1px;
+    }
+    
+    #forgotPassword {
+        font-size: 14px;
+    }
+
+    .form-group input {
+        width: 100%;
+        height: 30px;
+        margin-right: 180px;
+        margin-top: 0px;
+    }
+
+    button[type="submit"] {
+        width: 75%;
+        height: 40px;
+        padding: 3%;
+        font-size: 15px;
+        left: 45px;
+        top: 15px;
+        margin-bottom:10px;
+    }
+
+    .form-group span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: 90px;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 0 80px;
+        color: #f4511e;
+        font-family: 'Poppins';
+    }
+
+    .google-button {
+        margin-top: 85px;
+        width: 75%;
+        height: 40px;
+        padding: 3%;
+        font-size: 15px;
+        left: 35px;
+        margin-bottom:10px;
+    }
+
+    #naotemconta p {
+        margin-top: 185px;
+        margin-left: -10px;
+        font-size: 14px;  
+        width: calc(100% - 80px); 
+    }
+    
+    .link-crieuma {
+        margin-top: 185px;
+        margin-left: 200px;
+        font-size: 14px;
+    }
+}

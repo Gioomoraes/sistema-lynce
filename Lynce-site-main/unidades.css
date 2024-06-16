@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    width: 85px;
+    border-color: #c95f03;
+    background-color: #dbd7d700;
+    font-family: "Poppins";
+    border-radius: 6px;
+    border: none;
+    color: #fd7702;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #fd7702;
+    border-color: #fd7702;
+    color: white;
+  }
+  
+  #texto {
+    position: relative;
+    text-align: center;
+    top: 100px;
+  }
+  
+  h1 {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-family: "Bricolage Grotesque";
+    margin-left: 50px;
+  }
+  
+  .quadrado {
+    width: 230px;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.288);
+    border: 3px dotted #f4511e;
+    border-radius: 8px;
+    position: relative;
+    margin: 12% auto;
+    z-index: 1;
+  }
+  
+  .circulo {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f4511e;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  
+  .circulo p {
+    font-size: 50px;
+    text-align: center;
+    margin-top: -1px;
+    font-weight: bold;
+    font-family: "Arial";
+    color: aliceblue;
+  }
+  
+  .circulo:hover {
+    background-color: #f17f1a;
+  }
+  
+  h6 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 13px;
+  }
+  
+  #formContainer {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.429);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  input.form-control {
+    background-color: #f0f0f0;
+    border-color: #d1d1d1;
+    color: #333;
+  }
+  
+  input.form-control:focus {
+    background-color: #ffffff;
+    border-color: #f4511e;
+    color: #000;
+    box-shadow: 0 0 5px rgba(244, 81, 30, 0.5);
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    width: 280px;
+    height: 45px;
+    background-color: #f4511e;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+.submit-button:hover {
+    background-color: #e03e1d;
+}

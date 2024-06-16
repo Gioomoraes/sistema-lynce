@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="img/logo contorno branco.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="background-custom">
+    <div class="container">
+      <div class="login-form">
+        <div class="back-button">
+          <a href="index.html" >
+            <img src="/imgs/seta.png" alt="Seta" />
+          </a>
+        </div>
+        <div class="imglogo" id="logo">
+          <img src="/imgs/logo.png" alt="logo" width="300" height="auto" />
+        </div>
+        <h1>Bem-vindo de volta!</h1>
+        <p>
+          Conecte-se em sua conta usando as informações colocadas no cadastro.
+        </p>
+        <form>
+          <div class="form-group">
+            <label for="email" class="email-label">Digite seu e-mail</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="password" class="password-label"
+              >Digite sua senha</label
+            >
+            <input type="password" id="password" required />
+            <button type="button" id="togglePassword">
+              <img id="passwordIcon" src="/imgs/olhofechado.png" alt="Olho Fechado" />
+            </button>
+            <a href="#" id="forgotPassword">Esqueceu a senha?</a>
+          </div>
+          <div class="form-group" id="botao-entrar">
+            <button type="submit">Entrar</button>
+            <div class="form-group" id="ou">
+              <span>ou</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <button type="button" class="google-button">
+              <img src="/imgs/google.png" alt="Google logo" />
+              Entrar com o Google
+            </button>
+          </div>
+          <div class="form-group" id="naotemconta">
+            <p>Ainda não tem uma conta?</p>
+            <a href="cadastro.html" class="link-crieuma">Crie uma agora</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
