@@ -104,6 +104,32 @@
   margin-right: 50px;
 }
 
+.btn1 a:link,
+.btn1 a:visited,
+.btn1 a:hover,
+.btn1 a:active {
+    color: black; 
+    text-decoration: none; 
+}
+
+.btn1 a:hover {
+    color: #fd841f; 
+}
+
+.btn a:hover {
+  color: #fd841f; 
+}
+
+
+.btn a:link,
+.btn a:visited,
+.btn a:hover,
+.btn a:active {
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+}
+
+
 
 
 
@@ -119,7 +145,17 @@
   cursor: pointer;
   transition: 0.3s;
   margin-right: 220px;
+  color: white;
+  text-decoration: none;
+  
 }
+
+
+.btn-test a:visited {
+  color: white; 
+}
+
+
 
 
 img {

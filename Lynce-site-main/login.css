@@ -78,6 +78,7 @@ body, html {
     justify-content: center;
     align-items: center;
     position: relative; 
+    margin-left: 5px;
 }
 
 .login-form h1 {
